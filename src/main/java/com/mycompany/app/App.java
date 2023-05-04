@@ -9,8 +9,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
-
-public class SnakeGame extends JFrame implements ActionListener {
+public class App {
     private static final int WIDTH = 500;
     private static final int HEIGHT = 500;
     private static final int UNIT_SIZE = 10;
@@ -113,6 +112,6 @@ public class SnakeGame extends JFrame implements ActionListener {
             if (x[0] == x[i] && y[0] == y[i]) {
                 running = false;
             }
-        }
+    }
 
         // Check if the snake has collided with the walls
